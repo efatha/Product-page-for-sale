@@ -1,0 +1,23 @@
+:root{
+    --efa-Blue: #2f8be6;
+    --efa-lightB: #2989d7;
+    --efa-darkb: #356ddc;
+    --efa-sea: #397d92;
+    --efa-purpleB-:hsl(234,100%,66%);
+    --efa-green: #1b8634;
+    --efa-white: #fff;
+    --efa-gray: #6c757d;
+    --efa-gray-dark: #343a40;
+    --efa-gray-100: #f8f9fa;
+    --efa-gray-200: #e9ecef;
+    --efa-gray-300: #dee2e6;
+    --efa-gray-400: #ced4da;
+    --efa-gray-500: #adb5bd;
+    --efa-gray-600: #6c757d;
+    --efa-gray-700: #495057;
+    --efa-gray-800: #343a40;
+    --efa-gray-900: #212529;
+    --efa-secondary: #5382ed;
+    --efa-code-color: #4e98ac9a;
+    --efa-highlight-bg: #fbf1cd;
+  }
