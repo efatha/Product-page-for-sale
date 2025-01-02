@@ -40,3 +40,104 @@
   #engage{
     color:var(--efa-Blue);
   }
+  header{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+  }
+  header img{
+    width:60px;
+  }
+  .menu{
+    display: none;
+  }
+  label{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .image-mail , .image-contact{
+    display: flex;
+    flex-direction: row;
+    height:60px;
+    padding-top: 20px;
+  }
+  .email, .contact{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    bottom:22px;
+    left:10px;
+  }
+  .social-media{
+    display: flex;
+    padding-top: 20px;
+    filter: contrast(90%);
+    filter: grayscale(90%);
+    padding-left: 70px;
+  }
+  .social-media img{
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    cursor: pointer;
+  }
+  a{
+    color: var(--efa-Blue);
+    text-decoration: none;
+    margin-top: -20px;
+  }
+  .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--efa-Blue);
+    margin-top: 10px;
+  }
+  ul{
+    display: inherit;
+    list-style: none;
+    gap:50px;
+    font-size: large;
+    font-family:Trebuchet MS, Helvetica, sans-serif;
+    font-weight: 700;
+    color:var(--efa-gray-200)
+  }
+  .btn{
+    display: inherit;
+    flex-direction: row-reverse;
+    gap:40px;
+  }
+  #search{
+    padding:10px;
+    border-radius: 4px 0px 0px;
+    width:140px;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: bolder;
+    color: var(--efa-Blue);
+    border:transparent;
+  }
+  #search:hover{
+    color:var(--efa-gray-100);
+    border-radius: 1px 10px 90px;
+  }
+  .search{
+    z-index: 1;
+    border: transparent;
+    border-radius: 10px;
+    padding-left: 15px;
+    color: var(--efa-gray-900);
+    font-weight: 700;
+    font-family: inherit;
+    width:200px;
+    margin-right: -50px;
+    background-color: var(--efa-gray-400);
+    box-shadow: inset 0 10px 5px rgba(0, 0, 0, 0.1);
+    transition-duration: 2s;
+  }
+  .cart{
+    width:30px;
+    height:35px;
+    margin-top:10px;
+  }
+  
