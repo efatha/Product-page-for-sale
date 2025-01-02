@@ -21,3 +21,22 @@
     --efa-code-color: #4e98ac9a;
     --efa-highlight-bg: #fbf1cd;
   }
+  body{
+    margin:0;
+  }
+  .pre-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--efa-gray-300);
+    padding:20px;
+  }
+  .Opening{
+    background-color: var(--efa-gray-900);
+    padding:15px;
+    color:var(--efa-gray-100);
+    border-radius: 30px;
+  }
+  #engage{
+    color:var(--efa-Blue);
+  }
